@@ -13,7 +13,10 @@
 
 //CODE HERE
 
-
+function helloWorld(){
+  console.log('Hello, World!') ; 
+}
+helloWorld();
 ////////////////// PROBLEM 2 ////////////////////
 
 /*
@@ -21,8 +24,11 @@
 */
 
 //CODE HERE
-
-
+const jsNinja = () => {
+  return 'I am a JavaScript ninja!';
+}
+jsNinja();
+//console.log(jsNinja.toString());
 ////////////////// PROBLEM 3 ////////////////////
 /*
   Create a function called printName which takes in a person's name and console logs it.
@@ -31,8 +37,10 @@
 */
 
 //CODE HERE
-
-
+function printName(name){
+  console.log(name);
+}
+printName(Cameron);
 ////////////////// PROBLEM 4 ////////////////////
 /*
   Create a function called greeting that
